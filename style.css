@@ -1,0 +1,201 @@
+
+/* ========= RESPONSIVE ========= */
+@media(min-width: 1024px) { /* Tablet/Desktop */
+  .features-grid { grid-template-columns: 1fr 1fr; gap: 60px 40px; } /* 2 Columns */
+}
+@media(max-width:768px){
+    h1{
+    flex: 1px;
+    min-width: 259px;
+    font-size: 28px;
+    margin: 0px;
+}
+.container{
+    width:400px;
+    margin:30px auto;
+}
+}
+@media (max-width:425px)  {
+    container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#eef7ff;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img{
+  max-width:200px;
+    height:auto;
+    display: block;
+    margin: 20px;
+    width: 100px;
+}
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    flex: 1px;
+    min-width: 259px;
+    font-size: 28px;
+    margin: 0px;
+}
+.container{
+    width:700px;
+    margin:30px auto;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#eef7ff;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img{
+  max-width:200px;
+    height:auto;
+    display: block;
+    margin: 20px;
+    width: 100px;
+}
+
+.content{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.left{
+    width:55%;
+}
+
+.right{
+    width:35%;
+    background:#082d68;
+    padding:30px;
+    border-radius:10px;
+}
+
+.right form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.right input{
+    padding:12px;
+}
+
+.right button{
+    padding:12px;
+    background:#00c4a7;
+    color:white;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+p {
+    flex: 2; /* Isse text ko zyada jagah milegi */
+    min-width: 300px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Form ki width set karne ke liye */
+form {
+    flex: 1; /* Isse form side par fit ho jayega */
+    min-width: 280px;
+    background-color: #0d3366;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+/* Purani screen ka masla hal karne ke liye poora page set */
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Dono cheezon ko ek line mein lane ka asli jadu yahan hai */
+.content-container {
+    display: flex;
+    flex-direction: row-reverse; /* Isse form left/right sahi set ho jayega aur barabar aayenge */
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+p {
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;
+}
+
+form {
+    width: 400px;
+    background-color: #0d3366;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+p {
+    margin-top: 0px; /* Paragraph ko zyada jagah milegi */
+    margin-bottom: 0px;
+    
+    font-size: 15px;
+}
+
+form {
+    flex: 1; /* Form right side par fit ho jayega */
+    max-width: 350px;
+    background-color: #0d3366;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
